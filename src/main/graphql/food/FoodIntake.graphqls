@@ -1,0 +1,15 @@
+
+type FoodIntake {
+
+	diary: FoodDiary	
+
+	name: String
+	relativeTime: Int
+	
+	time: Long
+	
+	units: [FoodIntakeUnit]
+
+	energyChange: EnergyAmount
+	consumedNutrients: [NutrientDose]
+}

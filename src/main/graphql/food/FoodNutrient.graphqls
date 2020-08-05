@@ -1,0 +1,7 @@
+
+type FoodNutrient {
+
+	nutrient: Nutrient
+	dose: NutrientDose
+	perFoodUnit: Long
+}

@@ -1,0 +1,9 @@
+
+type FoodDiary {
+
+	day: LifeDay
+	intakes: [FoodIntake]
+	
+	consumedEnergy: EnergyAmount
+	consumedNutrients: [NutrientDose]
+}

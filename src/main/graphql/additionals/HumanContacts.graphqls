@@ -1,0 +1,6 @@
+
+type HumanContacts {
+
+	email: String
+	emailVerified: Boolean
+}

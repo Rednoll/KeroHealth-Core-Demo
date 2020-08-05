@@ -1,0 +1,19 @@
+union Account = KeroHealthAccount | VkAccount
+
+type KeroHealthAccount { 
+
+	id: Long
+	owner: Human
+	type: String
+	
+	login: String
+}
+
+type VkAccount {
+
+	id: Long
+	owner: Human
+	type: String
+	
+	uid: Long
+}

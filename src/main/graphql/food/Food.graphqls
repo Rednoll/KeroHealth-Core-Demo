@@ -1,0 +1,13 @@
+
+type Food {
+	
+	id: Long
+	nutrients: [FoodNutrient]
+	energy: EnergyAmount
+}
+
+type FoodDose {
+	
+	food: Food
+	amount: Long
+}

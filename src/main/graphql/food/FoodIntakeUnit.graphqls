@@ -1,0 +1,10 @@
+
+type FoodIntakeUnit {
+
+	intake: FoodIntake
+	food: Food
+	dose: FoodDose
+	
+	energy: EnergyAmount
+	nutrients: [NutrientDose]
+}

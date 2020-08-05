@@ -1,0 +1,18 @@
+
+type Query {
+
+	human(id: Long, tokenType: String, token: String): Human
+	
+	account(id: Long, tokenType: String, token: String): Account
+	keroHealthAccount(id: Long, tokenType: String, token: String): KeroHealthAccount
+
+	life(id: Long, tokenType: String, token: String): Life
+	year(tokenType: String, token: String, id: Long, number: Int): LifeYear
+	month(tokenType: String, token: String, id: Long, yearNumber: Int, number: Int): LifeMonth
+	week(tokenType: String, token: String, id: Long, date: LocalDate): LifeWeek
+	day(tokenType: String, token: String, id: Long, date: LocalDate): LifeDay
+	
+	food(id: Long): Food
+}
+
+scalar LocalDate

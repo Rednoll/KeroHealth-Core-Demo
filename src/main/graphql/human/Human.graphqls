@@ -1,0 +1,18 @@
+
+type Human {
+
+	id: Long
+	sex: Sex
+	mass: Int
+	height: Int
+	age: Int
+	accounts: [Account]
+	life: Life
+	contacts: HumanContacts
+}
+
+enum Sex {
+	
+	MALE
+	FEMALE
+}

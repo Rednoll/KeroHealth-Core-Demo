@@ -1,0 +1,20 @@
+
+type Nutrient {
+		
+	id: Long
+	
+	name: String
+	abbreviation: String
+}
+
+type NutrientDose {
+	
+	nutrient: Nutrient
+	
+	raw: Long
+	microgram: Long
+	milligram: Long
+	gram: Long
+	kilogram: Long
+	ton: Long
+}
